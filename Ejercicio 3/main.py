@@ -5,7 +5,7 @@ from banco import Banco
 def main():
     banco = Banco()
 
-    c1 = CuentaCorriente("1001", "Edgard", 50000, 80000)
+    c1 = CuentaCorriente("1001", "Benjamin", 50000, 80000)
     c2 = CuentaAhorro("2001", "Lilian", 150000, 0.02)
 
     banco.agregar(c1)
@@ -29,3 +29,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
