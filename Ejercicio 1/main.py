@@ -6,7 +6,7 @@ from flota import Flota
 
 def main():
         flota = Flota()
-        flota.agregar(Automovil("A1", "Mazda", "3", 2020, 17))
+        flota.agregar(Automovil("A1", "Suzuky", "Alto", 2020, 17))
         flota.agregar(Motocicleta("M1", "Yamaha", "R3", 2018, 300))
         flota.agregar(Camion("C1", "Mercedes", "Actros", 2015, 10))
 
