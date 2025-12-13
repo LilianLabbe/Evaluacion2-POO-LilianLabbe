@@ -5,9 +5,9 @@ from carrito import Carrito
 def main():
     c = Carrito()
 
-    libro = ProductoFisico("P1", "Libro Python", 15000, 10, "liviano")
-    polera = ProductoFisico("P2", "Polera Negra", 12000, 5, "pesado")
-    curso = ProductoDigital("D1", "Curso IA", 50000, 999, "personal")
+    libro = ProductoFisico("P1", "Libro Cazadores de Sombras", 15000, 10, "liviano")
+    polera = ProductoFisico("P2", "Polera Cuello en V", 12000, 5, "pesado")
+    curso = ProductoDigital("D1", "Curso Peluqueria", 50000, 999, "personal")
     soft = ProductoDigital("D2", "Software Pro", 30000, 999, "comercial")
 
     c.agregar(libro, 2)
@@ -22,3 +22,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
