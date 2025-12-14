@@ -1,6 +1,6 @@
-from cuenta_corriente import CuentaCorriente
-from cuenta_ahorro import CuentaAhorro
-from banco import Banco
+from Cuenta_corriente import CuentaCorriente
+from Cuenta_ahorro import CuentaAhorro
+from Banco import Banco
 
 def main():
     banco = Banco()
@@ -29,4 +29,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
