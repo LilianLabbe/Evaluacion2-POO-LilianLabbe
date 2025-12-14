@@ -1,6 +1,6 @@
-from producto_fisico import ProductoFisico
-from producto_digital import ProductoDigital
-from carrito import Carrito
+from Producto_fisico import ProductoFisico
+from Producto_digital import ProductoDigital
+from Carrito import Carrito
 
 def main():
     c = Carrito()
@@ -22,4 +22,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
