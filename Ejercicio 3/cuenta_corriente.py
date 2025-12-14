@@ -1,4 +1,4 @@
-from cuenta import Cuenta
+from Cuenta import Cuenta
 
 class CuentaCorriente(Cuenta):
     def __init__(self, numero, titular, saldo, linea_credito):
@@ -11,3 +11,4 @@ class CuentaCorriente(Cuenta):
             self.movimientos.append(f"RETIRO {monto}")
             return True
         return False
+
