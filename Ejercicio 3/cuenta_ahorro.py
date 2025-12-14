@@ -1,4 +1,4 @@
-from cuenta import Cuenta
+from Cuenta import Cuenta
 
 class CuentaAhorro(Cuenta):
     def __init__(self, numero, titular, saldo, interes):
@@ -17,3 +17,4 @@ class CuentaAhorro(Cuenta):
         self.saldo += ganancia
         self.movimientos.append(f"INTERÉS {ganancia}")
         return ganancia
+
