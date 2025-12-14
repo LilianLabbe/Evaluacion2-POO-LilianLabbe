@@ -1,4 +1,4 @@
-from trabajador import Trabajador
+from Trabajador import Trabajador
 
 class Practicante(Trabajador):
     def __init__(self, nombre, rut, horas, valor_hora):
