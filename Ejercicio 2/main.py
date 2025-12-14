@@ -1,7 +1,7 @@
-from vendedor import Vendedor
-from gerente import Gerente
-from practicante import Practicante
-from empresa import Empresa
+from Vendedor import Vendedor
+from Gerente import Gerente
+from Practicante import Practicante
+from Empresa import Empresa
 
 def main():
     empresa = Empresa()
