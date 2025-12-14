@@ -1,8 +1,8 @@
 
-from automovil import Automovil
-from motocicleta import Motocicleta
-from camion import Camion
-from flota import Flota
+from Automovil import Automovil
+from Motocicleta import Motocicleta
+from Camion import Camion
+from Flota import Flota
 
 def main():
         flota = Flota()
