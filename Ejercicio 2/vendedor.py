@@ -1,4 +1,4 @@
-from trabajador import Trabajador
+from Trabajador import Trabajador
 
 class Vendedor(Trabajador):
     def __init__(self, nombre, rut, sueldo_base, ventas_mes, comision):
